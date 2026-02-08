@@ -1,7 +1,8 @@
 class Solution {
     func plusOne(_ digits: [Int]) -> [Int] {
-        var digitsArray = [Int]()
-        digitsArray = digits.map { $0 }
+        // var digitsArray = [Int]()
+        // digitsArray = digits.map { $0 }
+        var digitsArray = digits
         let digtisLength = digitsArray.count - 1 
         var helpInt: Int = 1
         for (index, i) in digitsArray.reversed().enumerated() {
