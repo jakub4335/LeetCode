@@ -4,8 +4,7 @@ class Solution {
         let aLength: Int = a.length
         let bLength: Int = b.length
         var finalString: String = ""
-        //var i: Int = 0
-        let maxLength: Int = max(aLength,bLength) // ilosc calkowitych petli
+        let maxLength: Int = max(aLength,bLength)
 
         let paddedA = String(repeating: "0", count: maxLength - aLength) + a
         let paddedB = String(repeating: "0", count: maxLength - bLength) + b
